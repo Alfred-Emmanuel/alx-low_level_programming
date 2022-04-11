@@ -7,20 +7,14 @@
 int main(void)
 
 {
-char alphabet;
+int i;
 
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+for (i = 0; i < 10; i++)
 {
-if (alphabet == 'q')
-continue;
-
-else if (alphabet == 'e')
-continue;
-
-putchar(alphabet);
+printf("%i",i);
 }
 
-putchar('\n');
+printf("\n");
 
 return (0)
 
