@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (success/correct)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -11,9 +11,9 @@ int c, i;
 
 for (c = '0'; c <= '9'; c++)
 {
-for (1 = '0'; 1 <= '9'; 1++)
+for (i = '0'; i <= '9'; i++)
 {
-if (c < 1)
+if (c < i)
 {
 putchar(c);
 putchar(i);
