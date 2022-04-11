@@ -18,7 +18,7 @@ if (c < 1)
 putchar(c);
 putchar(i);
 
-if (c != '8' || (c == '8' && != '9'))
+if (c != '8' || (c == '8' && i != '9'))
 {
 putchar(',');
 putchar(' ');
